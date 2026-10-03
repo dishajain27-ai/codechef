@@ -1,6 +1,16 @@
 {
-  "total_solved": 0,
-  "solved_codes": [],
+  "total_solved": 1,
+  "solved_codes": [
+    "START01"
+  ],
   "failed_codes": [],
-  "history": []
+  "history": [
+    {
+      "code": "START01",
+      "name": "Number Mirror",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-03 20:04:19"
+    }
+  ]
 }
