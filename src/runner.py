@@ -86,32 +86,66 @@ def run():
         )
         sys.exit(1)
 
+    # 0. Realistic Startup Jitter
+    if not config.dry_run and config.initial_jitter_max_seconds > 0:
+        jitter = random.randint(config.initial_jitter_min_seconds, config.initial_jitter_max_seconds)
+        logger.info(f"Human startup jitter: pausing {jitter}s before connecting to CodeChef...")
+        time.sleep(jitter)
+
     # 1. Load Solved Database
     db = load_solved_database(config.data_file)
     solved_set = set(db.get("solved_codes", []))
     failed_set = set(db.get("failed_codes", []))
     history = db.get("history", [])
 
+    today_str = datetime.date.today().isoformat()
     today_solved = count_problems_solved_today(history)
     logger.info(f"Database loaded: {len(solved_set)} total solved, {len(failed_set)} skipped/failed.")
-    logger.info(f"Problems solved today so far: {today_solved} (Daily Target Range: {config.daily_target_min}-{config.daily_target_max})")
 
-    # Check if daily upper bound is reached
-    if today_solved >= config.daily_target_max:
-        logger.info(f"Daily quota of {today_solved} problems reached for today! Resting until tomorrow to maintain human-like activity.")
+    # Calculate deterministic daily quota using date seed
+    date_seed = int(today_str.replace("-", ""))
+    rng = random.Random(date_seed)
+
+    # Weighted human-like distribution for CodeChef daily quota:
+    # 1 problem (streak keeper / busy day): 35%
+    # 2 problems (quick casual practice): 30%
+    # 3 problems (solid study day): 20%
+    # 4 problems (productive session): 10%
+    # 5 problems: 3%
+    # 6 problems: 2%
+    quota_options = [1, 2, 3, 4, 5, 6]
+    quota_weights = [35, 30, 20, 10, 3, 2]
+
+    filtered_pairs = [
+        (opt, w) for opt, w in zip(quota_options, quota_weights)
+        if config.daily_target_min <= opt <= config.daily_target_max
+    ]
+    if filtered_pairs:
+        opts, wts = zip(*filtered_pairs)
+        daily_target = rng.choices(opts, weights=wts, k=1)[0]
+    else:
+        daily_target = rng.randint(config.daily_target_min, config.daily_target_max)
+
+    logger.info(f"Today's Plan ({today_str}): Target daily quota is {daily_target} problem(s).")
+    logger.info(f"Problems solved today so far: {today_solved}/{daily_target}")
+
+    # Check if daily target is already satisfied
+    if today_solved >= daily_target:
+        logger.info(
+            f"Daily quota of {daily_target} problem(s) already reached for today ({today_str}). "
+            "Streak is safe! Resting until tomorrow to maintain authentic human pacing."
+        )
         return
 
     # 2. Determine Random Session Target
+    remaining_today = daily_target - today_solved
     if config.randomize_batch:
-        # Pick random number for this run (e.g. 2 to 5 problems)
-        target_this_run = random.randint(config.min_problems_per_run, config.max_problems_per_run)
-        # Cap so we don't exceed daily_target_max
-        remaining_today = config.daily_target_max - today_solved
-        target_this_run = min(target_this_run, remaining_today)
+        batch_size = random.randint(config.min_problems_per_run, config.max_problems_per_run)
+        target_this_run = min(batch_size, remaining_today)
     else:
-        target_this_run = config.min_problems_per_run
+        target_this_run = min(config.min_problems_per_run, remaining_today)
 
-    logger.info(f"Targeting {target_this_run} problem(s) in this randomized session.")
+    logger.info(f"Targeting {target_this_run} problem(s) in this session slot (Remaining today: {remaining_today}).")
 
     # 3. Discover Unsolved Candidate Problems
     candidate_problems = []

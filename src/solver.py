@@ -1,4 +1,5 @@
 import logging
+import random
 import re
 import time
 from typing import Any, Dict, List, Optional
@@ -12,9 +13,33 @@ logger = logging.getLogger("CodeChefSolver")
 
 class CodeChefSolver:
     CANDIDATE_MODELS = [
+        "gemini-3.5-flash-lite",
+        "gemini-3.5-flash",
         "gemini-2.5-flash",
-        "gemini-2.5-flash-lite",
-        "gemini-3.1-flash-lite",
+        "gemini-flash-latest",
+    ]
+
+    HUMAN_CODING_STYLES = [
+        (
+            "Concise Competitive Programming Style",
+            "Write standard competitive programming code with fast I/O. Use concise, idiomatic variable names (n, m, k, ans, cnt, curr, res). Include 1-2 brief comments."
+        ),
+        (
+            "Clear Procedural & Step-by-Step",
+            "Write clear, readable procedural logic with standard loops and explicit state transitions. Define variables clearly and include 1-2 short comments explaining edge-case handling."
+        ),
+        (
+            "Two-Pointer & In-Place Efficiency",
+            "Whenever appropriate, leverage two-pointers, sliding window, or in-place array/vector operations to minimize space and runtime overhead."
+        ),
+        (
+            "Frequency Caching & STL Maps",
+            "Utilize frequency mapping (std::map, unordered_map, or vector frequency counters) for optimal lookup and counting."
+        ),
+        (
+            "Modular Function Decomposition",
+            "Isolate sub-problems using a clean helper function (e.g. solve_case(), check(), or is_possible()) called inside the main testcase loop."
+        ),
     ]
 
     def __init__(self, api_key: str = "", model_name: str = ""):
@@ -80,6 +105,10 @@ class CodeChefSolver:
         content = problem_details.get("cleanContent", "")
         time_limit = problem_details.get("max_timelimit", 1.0)
 
+        # Randomly select a human coding persona/technique for authentic variety
+        style_title, style_instructions = random.choice(self.HUMAN_CODING_STYLES)
+        logger.info(f"Applying coding persona: '{style_title}' for problem {code}")
+
         lang_instructions = ""
         if "cpp" in language.lower() or "c++" in language.lower():
             lang_instructions = """Language: C++17
@@ -95,7 +124,7 @@ class CodeChefSolver:
 - Fast I/O: `import sys; input = sys.stdin.readline`.
 """
 
-        prompt = f"""You are an International Grandmaster Competitive Programmer.
+        prompt = f"""You are a skilled Competitive Programmer solving a CodeChef problem with authentic human craftsmanship.
 Solve the following CodeChef problem with optimal time and space complexity.
 
 Problem Code: {code}
@@ -108,10 +137,15 @@ Problem Description & Constraints:
 
 {lang_instructions}
 
+Coding Style & Persona:
+Approach Theme: {style_title}
+Guidance: {style_instructions}
+
 Critical Instructions:
 1. Handle all edge cases: minimum/maximum constraints, negative numbers, single element, empty strings, integer overflow (use `long long` in C++).
 2. Adhere strictly to the required input and output formats. Do not print extra prompts like "Enter number:".
-3. Return ONLY the complete, executable source code inside a ```{language} ... ``` code block. No conversational markdown outside the code.
+3. Write clean, natural code that looks authentically human-crafted with standard variable names and 1-2 brief comments.
+4. Return ONLY the complete, executable source code inside a ```{language} ... ``` code block. No conversational markdown outside the code.
 """
         raw_output = self._generate_with_resilience(prompt)
         return self.extract_clean_code(raw_output)
