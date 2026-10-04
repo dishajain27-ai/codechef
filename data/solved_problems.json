@@ -1,7 +1,8 @@
 {
-  "total_solved": 1,
+  "total_solved": 2,
   "solved_codes": [
-    "START01"
+    "START01",
+    "FLOW001"
   ],
   "failed_codes": [],
   "history": [
@@ -11,6 +12,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-03 20:04:19"
+    },
+    {
+      "code": "FLOW001",
+      "name": "Add Two Numbers",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-04 10:47:11"
     }
   ]
 }
