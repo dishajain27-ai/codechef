@@ -1,9 +1,11 @@
 {
-  "total_solved": 3,
+  "total_solved": 5,
   "solved_codes": [
     "START01",
     "FLOW001",
-    "HS08TEST"
+    "HS08TEST",
+    "CCLEARN",
+    "INSTNOODLE"
   ],
   "failed_codes": [],
   "history": [
@@ -27,6 +29,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-05 11:52:29"
+    },
+    {
+      "code": "CCLEARN",
+      "name": "CodeChef Learn Problem Solving",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-06 11:33:54"
+    },
+    {
+      "code": "INSTNOODLE",
+      "name": "Chef and Instant Noodles",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-06 11:36:21"
     }
   ]
 }
