@@ -1,12 +1,13 @@
 {
-  "total_solved": 6,
+  "total_solved": 7,
   "solved_codes": [
     "START01",
     "FLOW001",
     "HS08TEST",
     "CCLEARN",
     "INSTNOODLE",
-    "INTEST"
+    "INTEST",
+    "GDTURN"
   ],
   "failed_codes": [],
   "history": [
@@ -51,6 +52,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-07 11:23:30"
+    },
+    {
+      "code": "GDTURN",
+      "name": "Good Turn",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-08 11:39:28"
     }
   ]
 }
