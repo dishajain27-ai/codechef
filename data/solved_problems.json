@@ -1,5 +1,5 @@
 {
-  "total_solved": 7,
+  "total_solved": 8,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -7,7 +7,8 @@
     "CCLEARN",
     "INSTNOODLE",
     "INTEST",
-    "GDTURN"
+    "GDTURN",
+    "CBSPEED"
   ],
   "failed_codes": [],
   "history": [
@@ -59,6 +60,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-08 11:39:28"
+    },
+    {
+      "code": "CBSPEED",
+      "name": "Chef and Brain Speed",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-09 11:33:15"
     }
   ]
 }
