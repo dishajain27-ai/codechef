@@ -1,5 +1,5 @@
 {
-  "total_solved": 9,
+  "total_solved": 10,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -9,7 +9,8 @@
     "INTEST",
     "GDTURN",
     "CBSPEED",
-    "FLOW002"
+    "FLOW002",
+    "FLOW006"
   ],
   "failed_codes": [],
   "history": [
@@ -75,6 +76,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-09 16:08:18"
+    },
+    {
+      "code": "FLOW006",
+      "name": "Sum of Digits",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-09 19:02:56"
     }
   ]
 }
