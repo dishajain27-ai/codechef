@@ -1,5 +1,5 @@
 {
-  "total_solved": 8,
+  "total_solved": 9,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -8,7 +8,8 @@
     "INSTNOODLE",
     "INTEST",
     "GDTURN",
-    "CBSPEED"
+    "CBSPEED",
+    "FLOW002"
   ],
   "failed_codes": [],
   "history": [
@@ -67,6 +68,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-09 11:33:15"
+    },
+    {
+      "code": "FLOW002",
+      "name": "Find Remainder",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-09 16:08:18"
     }
   ]
 }
