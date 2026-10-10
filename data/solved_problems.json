@@ -1,5 +1,5 @@
 {
-  "total_solved": 10,
+  "total_solved": 12,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -10,7 +10,9 @@
     "GDTURN",
     "CBSPEED",
     "FLOW002",
-    "FLOW006"
+    "FLOW006",
+    "WATERCONS",
+    "MARKSTW"
   ],
   "failed_codes": [],
   "history": [
@@ -83,6 +85,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-09 19:02:56"
+    },
+    {
+      "code": "WATERCONS",
+      "name": "Water Consumption",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-10 10:51:38"
+    },
+    {
+      "code": "MARKSTW",
+      "name": "Alice and Marks",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-10 10:53:01"
     }
   ]
 }
