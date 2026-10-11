@@ -1,5 +1,5 @@
 {
-  "total_solved": 12,
+  "total_solved": 14,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -12,7 +12,9 @@
     "FLOW002",
     "FLOW006",
     "WATERCONS",
-    "MARKSTW"
+    "MARKSTW",
+    "FLOW007",
+    "ONEFULPAIRS"
   ],
   "failed_codes": [],
   "history": [
@@ -99,6 +101,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-10 10:53:01"
+    },
+    {
+      "code": "FLOW007",
+      "name": "Reverse The Number",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-11 11:03:11"
+    },
+    {
+      "code": "ONEFULPAIRS",
+      "name": "Oneful Pairs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-11 11:04:51"
     }
   ]
 }
