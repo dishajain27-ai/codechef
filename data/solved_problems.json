@@ -1,5 +1,5 @@
 {
-  "total_solved": 15,
+  "total_solved": 16,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -15,7 +15,8 @@
     "MARKSTW",
     "FLOW007",
     "ONEFULPAIRS",
-    "FIT"
+    "FIT",
+    "BESTOFTWO"
   ],
   "failed_codes": [],
   "history": [
@@ -123,6 +124,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-12 12:29:55"
+    },
+    {
+      "code": "BESTOFTWO",
+      "name": "Best of Two",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-12 18:57:10"
     }
   ]
 }
