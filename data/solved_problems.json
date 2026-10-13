@@ -1,5 +1,5 @@
 {
-  "total_solved": 16,
+  "total_solved": 17,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -16,7 +16,8 @@
     "FLOW007",
     "ONEFULPAIRS",
     "FIT",
-    "BESTOFTWO"
+    "BESTOFTWO",
+    "FLOW004"
   ],
   "failed_codes": [],
   "history": [
@@ -131,6 +132,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-12 18:57:10"
+    },
+    {
+      "code": "FLOW004",
+      "name": "First and Last Digit",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-13 12:15:52"
     }
   ]
 }
