@@ -1,5 +1,5 @@
 {
-  "total_solved": 17,
+  "total_solved": 18,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -17,7 +17,8 @@
     "ONEFULPAIRS",
     "FIT",
     "BESTOFTWO",
-    "FLOW004"
+    "FLOW004",
+    "BIRYANI"
   ],
   "failed_codes": [],
   "history": [
@@ -139,6 +140,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-13 12:15:52"
+    },
+    {
+      "code": "BIRYANI",
+      "name": "Biryani classes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-13 16:57:39"
     }
   ]
 }
