@@ -1,5 +1,5 @@
 {
-  "total_solved": 18,
+  "total_solved": 20,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -18,7 +18,9 @@
     "FIT",
     "BESTOFTWO",
     "FLOW004",
-    "BIRYANI"
+    "BIRYANI",
+    "TAXSAVING",
+    "PRACTICEPERF"
   ],
   "failed_codes": [],
   "history": [
@@ -147,6 +149,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-13 16:57:39"
+    },
+    {
+      "code": "TAXSAVING",
+      "name": "Saving Taxes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:46:57"
+    },
+    {
+      "code": "PRACTICEPERF",
+      "name": "Practice makes us perfect",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:50:08"
     }
   ]
 }
