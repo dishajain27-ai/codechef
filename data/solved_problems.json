@@ -1,5 +1,5 @@
 {
-  "total_solved": 22,
+  "total_solved": 23,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -22,7 +22,8 @@
     "TAXSAVING",
     "PRACTICEPERF",
     "TEST",
-    "FCTRL2"
+    "FCTRL2",
+    "AVGPROBLEM"
   ],
   "failed_codes": [],
   "history": [
@@ -179,6 +180,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-15 09:29:02"
+    },
+    {
+      "code": "AVGPROBLEM",
+      "name": "Greater Average",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-15 14:08:21"
     }
   ]
 }
