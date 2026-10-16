@@ -1,5 +1,5 @@
 {
-  "total_solved": 25,
+  "total_solved": 26,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -25,7 +25,8 @@
     "FCTRL2",
     "AVGPROBLEM",
     "AMR15A",
-    "PRACLIST"
+    "PRACLIST",
+    "DETSCORE"
   ],
   "failed_codes": [],
   "history": [
@@ -203,6 +204,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-15 17:56:28"
+    },
+    {
+      "code": "DETSCORE",
+      "name": "Determine the Score",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-16 09:19:09"
     }
   ]
 }
