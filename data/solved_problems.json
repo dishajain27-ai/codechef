@@ -1,5 +1,5 @@
 {
-  "total_solved": 26,
+  "total_solved": 27,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -26,7 +26,8 @@
     "AVGPROBLEM",
     "AMR15A",
     "PRACLIST",
-    "DETSCORE"
+    "DETSCORE",
+    "SNDMAX"
   ],
   "failed_codes": [],
   "history": [
@@ -211,6 +212,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-16 09:19:09"
+    },
+    {
+      "code": "SNDMAX",
+      "name": "Second Max of Three Numbers",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-17 08:50:40"
     }
   ]
 }
