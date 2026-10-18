@@ -1,5 +1,5 @@
 {
-  "total_solved": 27,
+  "total_solved": 29,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -27,7 +27,9 @@
     "AMR15A",
     "PRACLIST",
     "DETSCORE",
-    "SNDMAX"
+    "SNDMAX",
+    "TOP10",
+    "CWC23QUALIF"
   ],
   "failed_codes": [],
   "history": [
@@ -219,6 +221,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-17 08:50:40"
+    },
+    {
+      "code": "TOP10",
+      "name": "Masterchef finals",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-18 09:09:06"
+    },
+    {
+      "code": "CWC23QUALIF",
+      "name": "Cricket World Cup Qualifier",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-18 09:11:50"
     }
   ]
 }
