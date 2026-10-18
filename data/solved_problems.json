@@ -1,5 +1,5 @@
 {
-  "total_solved": 29,
+  "total_solved": 30,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -29,7 +29,8 @@
     "DETSCORE",
     "SNDMAX",
     "TOP10",
-    "CWC23QUALIF"
+    "CWC23QUALIF",
+    "LUDO"
   ],
   "failed_codes": [],
   "history": [
@@ -235,6 +236,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-18 09:11:50"
+    },
+    {
+      "code": "LUDO",
+      "name": "Chef Plays Ludo",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-18 13:12:00"
     }
   ]
 }
