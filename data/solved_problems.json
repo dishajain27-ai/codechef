@@ -1,5 +1,5 @@
 {
-  "total_solved": 31,
+  "total_solved": 33,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -31,7 +31,9 @@
     "TOP10",
     "CWC23QUALIF",
     "LUDO",
-    "LUCKYSEVEN"
+    "LUCKYSEVEN",
+    "CABS",
+    "TSORT"
   ],
   "failed_codes": [],
   "history": [
@@ -251,6 +253,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-18 16:58:10"
+    },
+    {
+      "code": "CABS",
+      "name": "The Cheaper Cab",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-19 10:19:35"
+    },
+    {
+      "code": "TSORT",
+      "name": "Simple Sorting",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-19 10:21:50"
     }
   ]
 }
