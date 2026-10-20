@@ -1,5 +1,5 @@
 {
-  "total_solved": 33,
+  "total_solved": 34,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -33,9 +33,12 @@
     "LUDO",
     "LUCKYSEVEN",
     "CABS",
-    "TSORT"
+    "TSORT",
+    "TALLER"
   ],
-  "failed_codes": [],
+  "failed_codes": [
+    "SEARCHINARR"
+  ],
   "history": [
     {
       "code": "START01",
@@ -267,6 +270,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-19 10:21:50"
+    },
+    {
+      "code": "TALLER",
+      "name": "Who is taller!",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-20 09:41:11"
     }
   ]
 }
