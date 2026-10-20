@@ -1,5 +1,5 @@
 {
-  "total_solved": 35,
+  "total_solved": 36,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -35,7 +35,8 @@
     "CABS",
     "TSORT",
     "TALLER",
-    "CLEARDAY"
+    "CLEARDAY",
+    "AUDIBLE"
   ],
   "failed_codes": [
     "SEARCHINARR"
@@ -285,6 +286,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-20 14:16:38"
+    },
+    {
+      "code": "AUDIBLE",
+      "name": "Audible Range",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-20 18:09:08"
     }
   ]
 }
