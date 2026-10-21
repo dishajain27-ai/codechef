@@ -1,5 +1,5 @@
 {
-  "total_solved": 36,
+  "total_solved": 38,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -36,7 +36,9 @@
     "TSORT",
     "TALLER",
     "CLEARDAY",
-    "AUDIBLE"
+    "AUDIBLE",
+    "KITCHENTIME",
+    "TIMELY"
   ],
   "failed_codes": [
     "SEARCHINARR"
@@ -293,6 +295,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-20 18:09:08"
+    },
+    {
+      "code": "KITCHENTIME",
+      "name": "Kitchen Timings",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-21 09:41:33"
+    },
+    {
+      "code": "TIMELY",
+      "name": "Reach on Time",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-21 09:43:41"
     }
   ]
 }
