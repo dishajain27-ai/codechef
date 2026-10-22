@@ -1,5 +1,5 @@
 {
-  "total_solved": 38,
+  "total_solved": 40,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -38,7 +38,9 @@
     "CLEARDAY",
     "AUDIBLE",
     "KITCHENTIME",
-    "TIMELY"
+    "TIMELY",
+    "REACHTARGET",
+    "MINHEIGHT"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -310,6 +312,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-21 09:43:41"
+    },
+    {
+      "code": "REACHTARGET",
+      "name": "Reach the Target",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-22 14:35:53"
+    },
+    {
+      "code": "MINHEIGHT",
+      "name": "Roller Coaster",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-22 14:43:01"
     }
   ]
 }
