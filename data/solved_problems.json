@@ -41,7 +41,8 @@
     "TIMELY"
   ],
   "failed_codes": [
-    "SEARCHINARR"
+    "SEARCHINARR",
+    "PRIZEPOOL"
   ],
   "history": [
     {
