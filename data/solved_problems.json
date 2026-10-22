@@ -1,5 +1,5 @@
 {
-  "total_solved": 40,
+  "total_solved": 41,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -40,7 +40,8 @@
     "KITCHENTIME",
     "TIMELY",
     "REACHTARGET",
-    "MINHEIGHT"
+    "MINHEIGHT",
+    "TODOLIST"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -326,6 +327,13 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-22 14:43:01"
+    },
+    {
+      "code": "TODOLIST",
+      "name": "Problems in your to-do list",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-22 18:12:35"
     }
   ]
 }
