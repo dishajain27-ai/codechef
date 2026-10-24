@@ -1,5 +1,5 @@
 {
-  "total_solved": 42,
+  "total_solved": 44,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -42,7 +42,9 @@
     "REACHTARGET",
     "MINHEIGHT",
     "TODOLIST",
-    "FSQRT"
+    "FSQRT",
+    "PAR2",
+    "VOLCONTROL"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -342,6 +344,20 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-23 09:39:02"
+    },
+    {
+      "code": "PAR2",
+      "name": "Parity",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-24 09:12:14"
+    },
+    {
+      "code": "VOLCONTROL",
+      "name": "Volume Control",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-24 09:14:58"
     }
   ]
 }
