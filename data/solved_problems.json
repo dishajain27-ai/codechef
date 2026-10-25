@@ -1,5 +1,5 @@
 {
-  "total_solved": 44,
+  "total_solved": 45,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -44,7 +44,8 @@
     "TODOLIST",
     "FSQRT",
     "PAR2",
-    "VOLCONTROL"
+    "VOLCONTROL",
+    "SUBSCRIBE_"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -358,6 +359,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-24 09:14:58"
+    },
+    {
+      "code": "SUBSCRIBE_",
+      "name": "Subscriptions",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 09:27:03"
     }
   ]
 }
