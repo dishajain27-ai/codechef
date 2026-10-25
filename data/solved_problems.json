@@ -1,5 +1,5 @@
 {
-  "total_solved": 45,
+  "total_solved": 46,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -45,7 +45,8 @@
     "FSQRT",
     "PAR2",
     "VOLCONTROL",
-    "SUBSCRIBE_"
+    "SUBSCRIBE_",
+    "UWCOI20A"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -366,6 +367,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-25 09:27:03"
+    },
+    {
+      "code": "UWCOI20A",
+      "name": "Find maximum in an Array",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 13:42:02"
     }
   ]
 }
