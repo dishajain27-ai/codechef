@@ -56,7 +56,8 @@
   ],
   "failed_codes": [
     "SEARCHINARR",
-    "PRIZEPOOL"
+    "PRIZEPOOL",
+    "CNTWRD"
   ],
   "history": [
     {
