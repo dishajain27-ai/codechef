@@ -1,5 +1,5 @@
 {
-  "total_solved": 48,
+  "total_solved": 49,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -48,7 +48,8 @@
     "SUBSCRIBE_",
     "UWCOI20A",
     "CHEFONDATE",
-    "BURGERS"
+    "BURGERS",
+    "DOUBLERENT"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -390,6 +391,13 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-27 10:06:04"
+    },
+    {
+      "code": "DOUBLERENT",
+      "name": "Double Rent",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 10:52:04"
     }
   ]
 }
