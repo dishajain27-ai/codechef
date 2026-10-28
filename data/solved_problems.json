@@ -1,5 +1,5 @@
 {
-  "total_solved": 51,
+  "total_solved": 52,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -51,7 +51,8 @@
     "BURGERS",
     "DOUBLERENT",
     "BTRYHLTH",
-    "JASSIGNMENTS"
+    "JASSIGNMENTS",
+    "IPLTRSH"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -414,6 +415,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-28 16:00:38"
+    },
+    {
+      "code": "IPLTRSH",
+      "name": "IPL Ticket Rush",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 19:09:22"
     }
   ]
 }
