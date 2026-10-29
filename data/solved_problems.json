@@ -1,5 +1,5 @@
 {
-  "total_solved": 52,
+  "total_solved": 53,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -52,7 +52,8 @@
     "DOUBLERENT",
     "BTRYHLTH",
     "JASSIGNMENTS",
-    "IPLTRSH"
+    "IPLTRSH",
+    "TLG"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -423,6 +424,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-28 19:09:22"
+    },
+    {
+      "code": "TLG",
+      "name": "The Lead Game",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 11:08:02"
     }
   ]
 }
