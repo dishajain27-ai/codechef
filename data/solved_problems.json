@@ -1,5 +1,5 @@
 {
-  "total_solved": 53,
+  "total_solved": 54,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -53,7 +53,8 @@
     "BTRYHLTH",
     "JASSIGNMENTS",
     "IPLTRSH",
-    "TLG"
+    "TLG",
+    "CHAIRS_"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -431,6 +432,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-29 11:08:02"
+    },
+    {
+      "code": "CHAIRS_",
+      "name": "Chairs Requirement",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 16:03:47"
     }
   ]
 }
