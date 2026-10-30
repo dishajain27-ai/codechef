@@ -1,5 +1,5 @@
 {
-  "total_solved": 54,
+  "total_solved": 56,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -54,7 +54,9 @@
     "JASSIGNMENTS",
     "IPLTRSH",
     "TLG",
-    "CHAIRS_"
+    "CHAIRS_",
+    "CHOPRT",
+    "WORDLE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -439,6 +441,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-29 16:03:47"
+    },
+    {
+      "code": "CHOPRT",
+      "name": "Chef And Operators",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 11:04:15"
+    },
+    {
+      "code": "WORDLE",
+      "name": "Wordle",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 11:07:08"
     }
   ]
 }
