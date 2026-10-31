@@ -1,5 +1,5 @@
 {
-  "total_solved": 56,
+  "total_solved": 57,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -56,7 +56,8 @@
     "TLG",
     "CHAIRS_",
     "CHOPRT",
-    "WORDLE"
+    "WORDLE",
+    "FLOW017"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -455,6 +456,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-30 11:07:08"
+    },
+    {
+      "code": "FLOW017",
+      "name": "Second Largest",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 10:38:21"
     }
   ]
 }
