@@ -1,5 +1,5 @@
 {
-  "total_solved": 59,
+  "total_solved": 60,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -59,7 +59,8 @@
     "WORDLE",
     "FLOW017",
     "CANDIVIDE",
-    "JERRYCHASE"
+    "JERRYCHASE",
+    "OFFICE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -479,6 +480,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-01 11:33:26"
+    },
+    {
+      "code": "OFFICE",
+      "name": "Chef in his Office",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-01 15:59:26"
     }
   ]
 }
