@@ -1,5 +1,5 @@
 {
-  "total_solved": 57,
+  "total_solved": 59,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -57,7 +57,9 @@
     "CHAIRS_",
     "CHOPRT",
     "WORDLE",
-    "FLOW017"
+    "FLOW017",
+    "CANDIVIDE",
+    "JERRYCHASE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -463,6 +465,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-31 10:38:21"
+    },
+    {
+      "code": "CANDIVIDE",
+      "name": "Candy Division",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 11:31:39"
+    },
+    {
+      "code": "JERRYCHASE",
+      "name": "Tom and Jerry Chase",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 11:33:26"
     }
   ]
 }
