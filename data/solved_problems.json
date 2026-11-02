@@ -1,5 +1,5 @@
 {
-  "total_solved": 60,
+  "total_solved": 61,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -60,7 +60,8 @@
     "FLOW017",
     "CANDIVIDE",
     "JERRYCHASE",
-    "OFFICE"
+    "OFFICE",
+    "WAITTIME"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -487,6 +488,13 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-01 15:59:26"
+    },
+    {
+      "code": "WAITTIME",
+      "name": "Waiting Time",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-02 12:54:03"
     }
   ]
 }
