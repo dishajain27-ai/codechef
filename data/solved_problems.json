@@ -1,5 +1,5 @@
 {
-  "total_solved": 63,
+  "total_solved": 64,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -63,7 +63,8 @@
     "OFFICE",
     "WAITTIME",
     "PUZHUNT",
-    "DONDRIVE"
+    "DONDRIVE",
+    "MANIPULATE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -511,6 +512,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-03 00:03:53"
+    },
+    {
+      "code": "MANIPULATE",
+      "name": "Ezio and Guards",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 12:35:18"
     }
   ]
 }
