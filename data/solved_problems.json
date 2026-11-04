@@ -1,5 +1,5 @@
 {
-  "total_solved": 64,
+  "total_solved": 65,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -64,7 +64,8 @@
     "WAITTIME",
     "PUZHUNT",
     "DONDRIVE",
-    "MANIPULATE"
+    "MANIPULATE",
+    "SUBSCRIBE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -519,6 +520,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-04 12:35:18"
+    },
+    {
+      "code": "SUBSCRIBE",
+      "name": "Get Subscription",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 17:09:37"
     }
   ]
 }
