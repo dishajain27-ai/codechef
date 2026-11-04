@@ -1,5 +1,5 @@
 {
-  "total_solved": 65,
+  "total_solved": 66,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -65,7 +65,8 @@
     "PUZHUNT",
     "DONDRIVE",
     "MANIPULATE",
-    "SUBSCRIBE"
+    "SUBSCRIBE",
+    "COURSEREG"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -527,6 +528,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-04 17:09:37"
+    },
+    {
+      "code": "COURSEREG",
+      "name": "Course Registration",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 20:34:51"
     }
   ]
 }
