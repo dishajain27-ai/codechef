@@ -1,5 +1,5 @@
 {
-  "total_solved": 69,
+  "total_solved": 71,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -69,7 +69,9 @@
     "COURSEREG",
     "FEVER",
     "EZSPEAK",
-    "OFFBY1"
+    "OFFBY1",
+    "DECINC",
+    "TAXES"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -559,6 +561,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-06 12:32:55"
+    },
+    {
+      "code": "DECINC",
+      "name": "Decrement OR Increment",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 11:22:11"
+    },
+    {
+      "code": "TAXES",
+      "name": "Tax in Chefland",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 11:24:50"
     }
   ]
 }
