@@ -1,5 +1,5 @@
 {
-  "total_solved": 71,
+  "total_solved": 73,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -71,7 +71,9 @@
     "EZSPEAK",
     "OFFBY1",
     "DECINC",
-    "TAXES"
+    "TAXES",
+    "CREDSCORE",
+    "CCHOCOLATES"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -575,6 +577,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-07 11:24:50"
+    },
+    {
+      "code": "CREDSCORE",
+      "name": "Credit score",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 11:33:38"
+    },
+    {
+      "code": "CCHOCOLATES",
+      "name": "Chef and Chocolates",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 11:36:29"
     }
   ]
 }
