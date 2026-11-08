@@ -1,5 +1,5 @@
 {
-  "total_solved": 76,
+  "total_solved": 77,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -76,7 +76,8 @@
     "CCHOCOLATES",
     "BATTERYLOW",
     "LTIME",
-    "BULLBEAR"
+    "BULLBEAR",
+    "EXAMCHEF"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -615,6 +616,13 @@
       "status": "Accepted",
       "attempts": 3,
       "time": "2026-11-08 18:35:11"
+    },
+    {
+      "code": "EXAMCHEF",
+      "name": "Exams",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-08 21:25:40"
     }
   ]
 }
