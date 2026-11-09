@@ -1,5 +1,5 @@
 {
-  "total_solved": 77,
+  "total_solved": 78,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -77,7 +77,8 @@
     "BATTERYLOW",
     "LTIME",
     "BULLBEAR",
-    "EXAMCHEF"
+    "EXAMCHEF",
+    "HOTCOLD"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -623,6 +624,13 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-08 21:25:40"
+    },
+    {
+      "code": "HOTCOLD",
+      "name": "Is it hot or cold",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 13:25:33"
     }
   ]
 }
