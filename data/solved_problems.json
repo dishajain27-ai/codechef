@@ -1,5 +1,5 @@
 {
-  "total_solved": 78,
+  "total_solved": 79,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -78,7 +78,8 @@
     "LTIME",
     "BULLBEAR",
     "EXAMCHEF",
-    "HOTCOLD"
+    "HOTCOLD",
+    "ATM2"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -631,6 +632,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-09 13:25:33"
+    },
+    {
+      "code": "ATM2",
+      "name": "ATM Machine",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-10 00:53:52"
     }
   ]
 }
