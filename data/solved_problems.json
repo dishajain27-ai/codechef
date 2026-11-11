@@ -1,5 +1,5 @@
 {
-  "total_solved": 79,
+  "total_solved": 81,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -79,7 +79,9 @@
     "BULLBEAR",
     "EXAMCHEF",
     "HOTCOLD",
-    "ATM2"
+    "ATM2",
+    "FLOW018",
+    "SCALENE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -639,6 +641,20 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-10 00:53:52"
+    },
+    {
+      "code": "FLOW018",
+      "name": "Small Factorial",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 12:13:13"
+    },
+    {
+      "code": "SCALENE",
+      "name": "Scalene Triangle",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 12:15:53"
     }
   ]
 }
