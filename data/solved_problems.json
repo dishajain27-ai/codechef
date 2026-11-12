@@ -1,5 +1,5 @@
 {
-  "total_solved": 81,
+  "total_solved": 82,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -81,7 +81,8 @@
     "HOTCOLD",
     "ATM2",
     "FLOW018",
-    "SCALENE"
+    "SCALENE",
+    "READPAGES"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -655,6 +656,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-11 12:15:53"
+    },
+    {
+      "code": "READPAGES",
+      "name": "Read Pages",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-12 13:19:25"
     }
   ]
 }
