@@ -1,5 +1,5 @@
 {
-  "total_solved": 82,
+  "total_solved": 83,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -82,7 +82,8 @@
     "ATM2",
     "FLOW018",
     "SCALENE",
-    "READPAGES"
+    "READPAGES",
+    "INCRIQ"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -663,6 +664,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-12 13:19:25"
+    },
+    {
+      "code": "INCRIQ",
+      "name": "Increase IQ",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-13 12:40:06"
     }
   ]
 }
