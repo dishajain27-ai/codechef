@@ -1,5 +1,5 @@
 {
-  "total_solved": 83,
+  "total_solved": 84,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -83,7 +83,8 @@
     "FLOW018",
     "SCALENE",
     "READPAGES",
-    "INCRIQ"
+    "INCRIQ",
+    "CHESSTIME"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -671,6 +672,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-13 12:40:06"
+    },
+    {
+      "code": "CHESSTIME",
+      "name": "Chess Time",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-14 11:47:11"
     }
   ]
 }
