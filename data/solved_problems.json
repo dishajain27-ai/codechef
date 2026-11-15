@@ -1,5 +1,5 @@
 {
-  "total_solved": 84,
+  "total_solved": 85,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -84,7 +84,8 @@
     "SCALENE",
     "READPAGES",
     "INCRIQ",
-    "CHESSTIME"
+    "CHESSTIME",
+    "FLOW013"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -679,6 +680,13 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-14 11:47:11"
+    },
+    {
+      "code": "FLOW013",
+      "name": "Valid Triangles",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-15 12:18:03"
     }
   ]
 }
