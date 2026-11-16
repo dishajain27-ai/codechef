@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    // Fast I/O
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int t;
+    cin >> t;
+    while (t--) {
+        int a, b, c;
+        cin >> a >> b >> c;
+        
+        // Find who has the maximum bid
+        if (a > b && a > c) {
+            cout << "Alice\n";
+        } else if (b > a && b > c) {
+            cout << "Bob\n";
+        } else {
+            cout << "Charlie\n";
+        }
+    }
+    
+    return 0;
+}
