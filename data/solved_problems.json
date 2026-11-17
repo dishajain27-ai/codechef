@@ -1,5 +1,5 @@
 {
-  "total_solved": 87,
+  "total_solved": 88,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -87,7 +87,8 @@
     "CHESSTIME",
     "FLOW013",
     "AUCTION",
-    "RIP2000"
+    "RIP2000",
+    "AGEING"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -703,6 +704,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-17 01:07:44"
+    },
+    {
+      "code": "AGEING",
+      "name": "Ageing",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-17 13:54:28"
     }
   ]
 }
