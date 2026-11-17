@@ -1,5 +1,5 @@
 {
-  "total_solved": 88,
+  "total_solved": 90,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -88,7 +88,9 @@
     "FLOW013",
     "AUCTION",
     "RIP2000",
-    "AGEING"
+    "AGEING",
+    "ONEMORE",
+    "CREDCOINS"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -711,6 +713,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-17 13:54:28"
+    },
+    {
+      "code": "ONEMORE",
+      "name": "Just One More Episode",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-17 18:29:31"
+    },
+    {
+      "code": "CREDCOINS",
+      "name": "CRED Coins",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-17 18:32:18"
     }
   ]
 }
