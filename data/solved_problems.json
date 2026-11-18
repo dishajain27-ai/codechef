@@ -1,5 +1,5 @@
 {
-  "total_solved": 90,
+  "total_solved": 92,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -90,7 +90,9 @@
     "RIP2000",
     "AGEING",
     "ONEMORE",
-    "CREDCOINS"
+    "CREDCOINS",
+    "MINPIZZA",
+    "PASSORFAIL"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -727,6 +729,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-17 18:32:18"
+    },
+    {
+      "code": "MINPIZZA",
+      "name": "Minimum Pizzas",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-18 00:00:38"
+    },
+    {
+      "code": "PASSORFAIL",
+      "name": "Pass or Fail",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-18 00:03:07"
     }
   ]
 }
