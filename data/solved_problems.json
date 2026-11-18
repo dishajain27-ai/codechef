@@ -1,5 +1,5 @@
 {
-  "total_solved": 92,
+  "total_solved": 93,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -92,7 +92,8 @@
     "ONEMORE",
     "CREDCOINS",
     "MINPIZZA",
-    "PASSORFAIL"
+    "PASSORFAIL",
+    "FAIRPASS"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -743,6 +744,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-18 00:03:07"
+    },
+    {
+      "code": "FAIRPASS",
+      "name": "Passes for Fair",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-18 13:29:59"
     }
   ]
 }
