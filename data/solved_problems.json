@@ -1,5 +1,5 @@
 {
-  "total_solved": 94,
+  "total_solved": 95,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -94,7 +94,8 @@
     "MINPIZZA",
     "PASSORFAIL",
     "FAIRPASS",
-    "SIXFRIENDS"
+    "SIXFRIENDS",
+    "NOTEBOOK"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -759,6 +760,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-18 17:58:28"
+    },
+    {
+      "code": "NOTEBOOK",
+      "name": "Count the Notebooks",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-19 13:56:52"
     }
   ]
 }
