@@ -1,5 +1,5 @@
 {
-  "total_solved": 95,
+  "total_solved": 97,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -95,7 +95,9 @@
     "PASSORFAIL",
     "FAIRPASS",
     "SIXFRIENDS",
-    "NOTEBOOK"
+    "NOTEBOOK",
+    "THREETOPICS",
+    "WATERREQ"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -767,6 +769,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-19 13:56:52"
+    },
+    {
+      "code": "THREETOPICS",
+      "name": "The Three Topics",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-19 18:10:58"
+    },
+    {
+      "code": "WATERREQ",
+      "name": "Water Requirement",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-19 18:14:18"
     }
   ]
 }
