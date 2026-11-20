@@ -1,5 +1,5 @@
 {
-  "total_solved": 97,
+  "total_solved": 98,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -97,7 +97,8 @@
     "SIXFRIENDS",
     "NOTEBOOK",
     "THREETOPICS",
-    "WATERREQ"
+    "WATERREQ",
+    "DISCNT"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -783,6 +784,13 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-19 18:14:18"
+    },
+    {
+      "code": "DISCNT",
+      "name": "Discount",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-20 13:38:58"
     }
   ]
 }
