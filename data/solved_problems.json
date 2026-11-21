@@ -1,5 +1,5 @@
 {
-  "total_solved": 101,
+  "total_solved": 102,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -101,7 +101,8 @@
     "DISCNT",
     "ERROR404",
     "CWIREFRAME",
-    "SALESEASON"
+    "SALESEASON",
+    "F1RULE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -815,6 +816,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-21 13:07:41"
+    },
+    {
+      "code": "F1RULE",
+      "name": "Miami GP",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-21 16:44:23"
     }
   ]
 }
