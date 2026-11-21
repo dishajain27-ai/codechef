@@ -1,5 +1,5 @@
 {
-  "total_solved": 99,
+  "total_solved": 101,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -99,7 +99,9 @@
     "THREETOPICS",
     "WATERREQ",
     "DISCNT",
-    "ERROR404"
+    "ERROR404",
+    "CWIREFRAME",
+    "SALESEASON"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -799,6 +801,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-20 17:45:14"
+    },
+    {
+      "code": "CWIREFRAME",
+      "name": "Chef and Wire Frames",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-21 13:04:39"
+    },
+    {
+      "code": "SALESEASON",
+      "name": "Sale Season",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-21 13:07:41"
     }
   ]
 }
