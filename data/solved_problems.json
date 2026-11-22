@@ -1,5 +1,5 @@
 {
-  "total_solved": 105,
+  "total_solved": 107,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -105,7 +105,9 @@
     "F1RULE",
     "CHEFGAMES",
     "SUMM",
-    "INSTAGRAM"
+    "INSTAGRAM",
+    "M1ENROL",
+    "POPULATION"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -847,6 +849,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-22 12:55:32"
+    },
+    {
+      "code": "M1ENROL",
+      "name": "MATH1 Enrolment",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-22 17:04:55"
+    },
+    {
+      "code": "POPULATION",
+      "name": "Final Population",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-22 17:06:29"
     }
   ]
 }
