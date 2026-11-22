@@ -1,5 +1,5 @@
 {
-  "total_solved": 103,
+  "total_solved": 105,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -103,7 +103,9 @@
     "CWIREFRAME",
     "SALESEASON",
     "F1RULE",
-    "CHEFGAMES"
+    "CHEFGAMES",
+    "SUMM",
+    "INSTAGRAM"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -831,6 +833,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-21 20:16:18"
+    },
+    {
+      "code": "SUMM",
+      "name": "Sum it",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-22 12:54:08"
+    },
+    {
+      "code": "INSTAGRAM",
+      "name": "Instagram",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-22 12:55:32"
     }
   ]
 }
