@@ -1,5 +1,5 @@
 {
-  "total_solved": 107,
+  "total_solved": 108,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -107,7 +107,8 @@
     "SUMM",
     "INSTAGRAM",
     "M1ENROL",
-    "POPULATION"
+    "POPULATION",
+    "RIGHTTHERE"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -863,6 +864,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-22 17:06:29"
+    },
+    {
+      "code": "RIGHTTHERE",
+      "name": "Right There",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-22 20:30:21"
     }
   ]
 }
