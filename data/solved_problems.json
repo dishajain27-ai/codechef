@@ -1,5 +1,5 @@
 {
-  "total_solved": 110,
+  "total_solved": 111,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -110,7 +110,8 @@
     "POPULATION",
     "RIGHTTHERE",
     "SUGARCANE",
-    "HELIUM3"
+    "HELIUM3",
+    "SLEEP"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -887,6 +888,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-23 15:27:31"
+    },
+    {
+      "code": "SLEEP",
+      "name": "Sleep deprivation",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-23 21:15:31"
     }
   ]
 }
