@@ -1,5 +1,5 @@
 {
-  "total_solved": 108,
+  "total_solved": 110,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -108,7 +108,9 @@
     "INSTAGRAM",
     "M1ENROL",
     "POPULATION",
-    "RIGHTTHERE"
+    "RIGHTTHERE",
+    "SUGARCANE",
+    "HELIUM3"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -871,6 +873,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-22 20:30:21"
+    },
+    {
+      "code": "SUGARCANE",
+      "name": "Sugarcane Juice Business",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-23 15:25:38"
+    },
+    {
+      "code": "HELIUM3",
+      "name": "Chef and NextGen",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-23 15:27:31"
     }
   ]
 }
