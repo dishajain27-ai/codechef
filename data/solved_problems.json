@@ -1,5 +1,5 @@
 {
-  "total_solved": 112,
+  "total_solved": 113,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -112,7 +112,8 @@
     "SUGARCANE",
     "HELIUM3",
     "SLEEP",
-    "FBC"
+    "FBC",
+    "SEMCOURSES"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -903,6 +904,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-24 01:15:05"
+    },
+    {
+      "code": "SEMCOURSES",
+      "name": "Chef and Chapters",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-24 03:30:25"
     }
   ]
 }
