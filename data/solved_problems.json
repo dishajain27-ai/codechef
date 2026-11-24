@@ -1,5 +1,5 @@
 {
-  "total_solved": 111,
+  "total_solved": 112,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -111,7 +111,8 @@
     "RIGHTTHERE",
     "SUGARCANE",
     "HELIUM3",
-    "SLEEP"
+    "SLEEP",
+    "FBC"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -895,6 +896,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-23 21:15:31"
+    },
+    {
+      "code": "FBC",
+      "name": "Fill the Bucket",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-24 01:15:05"
     }
   ]
 }
