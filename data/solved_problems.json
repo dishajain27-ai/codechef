@@ -1,5 +1,5 @@
 {
-  "total_solved": 113,
+  "total_solved": 114,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -113,7 +113,8 @@
     "HELIUM3",
     "SLEEP",
     "FBC",
-    "SEMCOURSES"
+    "SEMCOURSES",
+    "RAINFALL1"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -911,6 +912,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-24 03:30:25"
+    },
+    {
+      "code": "RAINFALL1",
+      "name": "Rain in Chefland",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-24 15:21:15"
     }
   ]
 }
