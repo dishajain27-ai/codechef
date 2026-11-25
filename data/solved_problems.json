@@ -1,5 +1,5 @@
 {
-  "total_solved": 114,
+  "total_solved": 115,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -114,7 +114,8 @@
     "SLEEP",
     "FBC",
     "SEMCOURSES",
-    "RAINFALL1"
+    "RAINFALL1",
+    "CHEFCAND"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -919,6 +920,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-24 15:21:15"
+    },
+    {
+      "code": "CHEFCAND",
+      "name": "Chef and Candies",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-25 01:39:51"
     }
   ]
 }
