@@ -1,5 +1,5 @@
 {
-  "total_solved": 115,
+  "total_solved": 117,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -115,7 +115,9 @@
     "FBC",
     "SEMCOURSES",
     "RAINFALL1",
-    "CHEFCAND"
+    "CHEFCAND",
+    "TRUESCORE",
+    "DNATION"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -927,6 +929,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-25 01:39:51"
+    },
+    {
+      "code": "TRUESCORE",
+      "name": "Is the Score Consistent",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-25 15:04:12"
+    },
+    {
+      "code": "DNATION",
+      "name": "Chef and Donation",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-25 15:07:13"
     }
   ]
 }
