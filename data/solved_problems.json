@@ -1,5 +1,5 @@
 {
-  "total_solved": 118,
+  "total_solved": 119,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -118,7 +118,8 @@
     "CHEFCAND",
     "TRUESCORE",
     "DNATION",
-    "MANAPTS"
+    "MANAPTS",
+    "CARTRIP"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -951,6 +952,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-26 01:12:06"
+    },
+    {
+      "code": "CARTRIP",
+      "name": "Car Trip",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-26 14:30:23"
     }
   ]
 }
