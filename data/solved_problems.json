@@ -1,5 +1,5 @@
 {
-  "total_solved": 117,
+  "total_solved": 118,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -117,7 +117,8 @@
     "RAINFALL1",
     "CHEFCAND",
     "TRUESCORE",
-    "DNATION"
+    "DNATION",
+    "MANAPTS"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -943,6 +944,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-25 15:07:13"
+    },
+    {
+      "code": "MANAPTS",
+      "name": "Mana Points",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-26 01:12:06"
     }
   ]
 }
