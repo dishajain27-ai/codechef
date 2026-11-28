@@ -1,5 +1,5 @@
 {
-  "total_solved": 120,
+  "total_solved": 122,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -120,7 +120,9 @@
     "DNATION",
     "MANAPTS",
     "CARTRIP",
-    "MUFFINS3"
+    "MUFFINS3",
+    "EXPERT",
+    "PALL01"
   ],
   "failed_codes": [
     "SEARCHINARR",
@@ -967,6 +969,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-27 01:10:40"
+    },
+    {
+      "code": "EXPERT",
+      "name": "Expert Setter",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-28 00:43:58"
+    },
+    {
+      "code": "PALL01",
+      "name": "The Block Game",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-28 00:45:30"
     }
   ]
 }
